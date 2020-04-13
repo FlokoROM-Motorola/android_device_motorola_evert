@@ -68,6 +68,7 @@ PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := evert
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=evert
+    PRODUCT_NAME=evert \
+    PRIVATE_BUILD_DESC="evert-user 9 PPWS29.116-11-13 66731 release-keys"
 
-BUILD_FINGERPRINT := motorola/evert/evert:9/PPWS29.116-11-6/9c4de2:user/release-keys
+BUILD_FINGERPRINT := motorola/evert/evert:9/PPWS29.116-11-13/66731:user/release-keys
